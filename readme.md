@@ -34,6 +34,7 @@
   - To manually do a style recompile, type `gulp styles` in the console.
   - Didn't really design this to work with JS file change detection. Might do in the future
   - Uses the MIT license so feel free to fork it or do pull requests with improvements.
+  - Feel it could definitely be optimized in some ways.
 
   ##### Reason for making this?
   This came from me not wanting to make a full-blown app for some [FrontendMentor](https://www.frontendmentor.io/solutions) challenges just to use TailwindCSS with my plugins & personal customizations. Liked how it turned out so I figured it could be a template for others who want to give TailwindCSS a try
