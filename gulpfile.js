@@ -10,7 +10,6 @@ const tailwindcss = require('tailwindcss')
 const postcssClean = require('postcss-clean')
 const postcssImport = require('postcss-import')
 const autoprefixer = require('autoprefixer')
-const postcssFlexbugsFixes = require('postcss-flexbugs-fixes')
 const postcssPresetEnv = require('postcss-preset-env')
 
 function styles() {
@@ -22,7 +21,6 @@ function styles() {
       },
       stage: 3
     }),
-    postcssFlexbugsFixes,
     autoprefixer
   ]
 
