@@ -2,7 +2,7 @@
 
 # Tailwind GulpJS Template
 
-  This is a template made to allow people to use a majority of the features of TailwindCSS like the customization & plugin features without having to mess about with the precompilers it needs to function properly like POSTCSS, Webpack and the sort.
+  This is a template made to allow people to use a majority of the features of TailwindCSS like the customization & plugin features without having to mess about with the precompilers it needs to function properly like PostCSS, Webpack and the sort and use them in creating web pages or designs.
 
   It pretty much acts the same or similar to the [TailwindCSS playground](https://play.tailwindcss.com/), but I've made the template in a way that the GULP file compiles your SCSS & Tailwind config into CSS, cleans it up and renames it into 'styles.css'. It also features browsersync and watches for changes in the HTML, SCSS, and Tailwind.config and will recompile the styling when they are detected
 
@@ -34,7 +34,7 @@
   - To manually do a style recompile, type `gulp styles` in the console.
   - Didn't really design this to work with JS file change detection. Might do in the future
   - Uses the MIT license so feel free to fork it or do pull requests with improvements.
-  - Feel it could definitely be optimized in some ways.
+  - Can this be optimized? Yes. It definitely can i feel.
 
   ##### Reason for making this?
   This came from me not wanting to make a full-blown app for some [FrontendMentor](https://www.frontendmentor.io/solutions) challenges just to use TailwindCSS with my plugins & personal customizations. Liked how it turned out so I figured it could be a template for others who want to give TailwindCSS a try
