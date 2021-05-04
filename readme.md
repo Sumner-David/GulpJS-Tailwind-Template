@@ -26,15 +26,15 @@
 
   3. Once that's all set up, double check that you have a *tailwind.config* file, *master.scss* file, *a.tailwind.csss* file, and the *index.html* file. There are required for it to actually work
 
-  4. Type `gulp` in your console to create a local servor on `localhost:3000` and have GULP watch for file changes.
+  4. Type `gulp` in your console to create a local server on `localhost:3000` and have GULP watch for file changes.
 
-  5. You sould be all set. Just don't touch the a.tailwind.scss file. Ideal way is to use SCSS partials and improt them into your master scss file.
+  5. You sould be all set. Just don't touch the a.tailwind.scss file. Ideal way is to use SCSS partials and import them into your master scss file.
 
   ## Bonus bits
   - To manually do a style recompile, type `gulp styles` in the console.
   - Didn't really design this to work with JS file change detection. Might do in the future
   - Uses the MIT license so feel free to fork it or do pull requests with improvements.
-  - Can this be optimized? Yes. It definitely can i feel.
+  - Can this be optimized? Yes. It definitely can. If you have the time, feel free to help out!
 
   ##### Reason for making this?
   This came from me not wanting to make a full-blown app for some [FrontendMentor](https://www.frontendmentor.io/solutions) challenges just to use TailwindCSS with my plugins & personal customizations. Liked how it turned out so I figured it could be a template for others who want to give TailwindCSS a try
